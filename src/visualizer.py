@@ -1,4 +1,5 @@
 import plotly.graph_objs as go
+import pandas as pd
 
 def plot_returns(returns):
   # Ensure datetime index and sort just in case
