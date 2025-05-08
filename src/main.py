@@ -1,5 +1,5 @@
 from data_loader import fetch_data
-import risk_metrics
+from risk_metrics import calculate_daily_returns, calculate_volatility, calculate_var
 from visualizer import plot_returns
 
 if __name__ == "__main__":
