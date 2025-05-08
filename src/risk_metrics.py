@@ -1,8 +1,8 @@
 import numpy as np
 
 def calculate_daily_returns(df):
-  return df['Adj Close'].pct_change().dropna()
-  # Adjusted close price adjusted for splits and dividends and/or capital gain distributions.
+  return df['Close'].pct_change().dropna()
+  # Close price adjusted for splits and dividends and/or capital gain distributions.
 
 def calculate_volatility(returns):
   return np.std(returns)
