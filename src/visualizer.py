@@ -1,4 +1,5 @@
 import plotly.graph_objs as go
+import pandas as pd
 
 def plot_returns(returns):
   returns.index = pd.to_datetime(returns.index)  # Ensure datetime index
